@@ -19,6 +19,10 @@ touch ./etc/diag_info/stat/firewall/enable-ssh.sh
 
 3. Edit the enable-ssh.sh script
 ```
+vim ./etc/diag_info/stat/firewall/enable-ssh.sh
+```
+
+```
 #!/bin/sh
 nvram set ssh_en=1
 nvram commit
