@@ -5,6 +5,8 @@ After 1.0.90 version should use xqsystem/get_icon vulnerability to log in via SS
 
 If log in to the AX3000T, you can write the OpenWRT firmware on AX3000T.
 
+AX3000T model: RD23
+
 1. Create a new folder with the path /etc/diag_info/stat/firewall/
 ```
 mkdir -p ./etc/diag_info/stat/firewall/
